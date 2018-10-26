@@ -8,6 +8,7 @@ let deadpool = {
         return `${this.nombre} ${this.apellido} - poder: ${this.poder}`
     }
 };
+//console.log(deadpool.getNombre());
 
 //let nombre = deadpool.nombre;
 //let apellido = deadpool.apellido;
@@ -16,5 +17,3 @@ let deadpool = {
 let { nombre, apellido, poder } = deadpool;
 
 console.log(nombre, apellido, poder);
-
-//console.log(deadpool.getNombre());

@@ -1,17 +1,17 @@
 let getNombre = () => {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            resolve('asdadadd');
-        }, 3000);
+        return new Promise((resolve, reject) => {
+            setTimeout(() => {
+                resolve('Commit que no entiendo');
+            }, 3000);
 
-    });
-}
-getNombre().then(nombre => {
-        //console.log(nombre); //asdasdad
-    })
-    //.catch(e => {
-    //  console.log('error de ASYNC', e);
-    //})
+        });
+    }
+    /*getNombre().then(nombre => {
+    console.log(nombre); //asdasdad
+     })
+    .catch(e => {
+      console.log('error de ASYNC', e);
+    })*/
 
 let saludo = async() => {
     let nombre = await getNombre();

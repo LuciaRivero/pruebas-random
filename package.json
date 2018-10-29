@@ -1,0 +1,22 @@
+{
+    "name": "node-fer-herrera",
+    "version": "1.0.0",
+    "description": "Esta es un app de linea de comando",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LuciaRivero/pruebas-random.git"
+    },
+    "author": "Lucia",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/LuciaRivero/pruebas-random/issues"
+    },
+    "homepage": "https://github.com/LuciaRivero/pruebas-random#readme",
+    "dependencies": {
+        "yargs": "^12.0.2"
+    }
+}
